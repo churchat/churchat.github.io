@@ -79,10 +79,6 @@ section h2 {
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand img{
-  width: 80px;
-}
-
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
   color: #fcbd20;
 }
@@ -203,6 +199,24 @@ header.masthead .device-container .screen img {
   }
   header.masthead .device-container {
     max-width: 325px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-brand img{
+    width: 80px;
+  }
+  
+  header.masthead .header-content {
+    margin-bottom: 80px;
+  }
+
+  header.masthead {
+    padding-top: 80px;
+  }
+
+  h2{
+    font-size: 1.3rem;
   }
 }
 
