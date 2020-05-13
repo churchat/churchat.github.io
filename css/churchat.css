@@ -456,6 +456,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn.donation{
   padding: 10px 20px;
   color: white;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
 }
 
 .btn-outline {

@@ -28,6 +28,15 @@
       sizes="16x16"
     />
 
+    <style>
+      .donation-buttons img {
+        width: 80px;
+      }
+      .donation-buttons .btn {
+        border-radius: 50%;
+      }
+    </style>
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
@@ -91,9 +100,6 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="/">Home</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#features"
                 >Features</a
               >
@@ -102,7 +108,7 @@
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="./donasi.html"
+              <a class="nav-link js-scroll-trigger" href="./donation.html"
                 >Donation</a
               >
             </li>
@@ -124,16 +130,28 @@
           </p>
           <hr />
           <div class="donation-buttons">
-            <h3>Bantu Sekarang</h3>
+            <h3>Donasi Sekarang</h3>
             <ul class="list-inline">
-              <li class="list-inline-item ">
-                <a class="btn donation btn-outline doku text-center" href="#!">Doku</a>
+              <li class="list-inline-item">
+                <a class="btn donation btn-outline doku text-center" href="#!">
+                  <img src="./img/doku-icon.png" />
+                </a>
               </li>
-              <li class="list-inline-item ">
-                <a class="btn donation btn-outline paypall text-center" href="https://www.paypal.me/churchat">Paypall</a>
+              <li class="list-inline-item">
+                <a
+                  class="btn donation btn-outline paypall text-center"
+                  href="https://www.paypal.me/churchat"
+                >
+                  <img src="./img/paypal-icon.png" />
+                </a>
               </li>
-              <li class="list-inline-item ">
-                <a class="btn donation btn-outline trakteer text-center" href="https://trakteer.id/churchat">Trakteer</a>
+              <li class="list-inline-item">
+                <a
+                  class="btn donation btn-outline trakteer text-center"
+                  href="https://trakteer.id/churchat"
+                >
+                  <img src="./img/trakteer-icon.png" />
+                </a>
               </li>
             </ul>
           </div>
