@@ -429,15 +429,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding-left: 0;
 }
 
-.btn-outline {
-  color: white;
-  border-color: #5C63AB;
-  background: #5C63AB;
+.btn.doku{
+  background: #E5232A;
 }
 
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-  color: #121212;
-  background-color: #fdcc52;
+.btn.paypall{
+  background: #0B60AF;
+}
+
+.btn.trakteer{
+  background: #BE1E2D;
 }
 
 .btn {
@@ -451,3 +452,30 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+
+.btn.donation{
+  padding: 10px 20px;
+  color: white;
+}
+
+.btn-outline {
+  color: white;
+  border-color: #5C63AB;
+  background: #5C63AB;
+}
+
+.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+  color: #121212;
+  background-color: #fdcc52;
+}
+
+.donation-buttons, .donation-buttons ul{
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .btn.donation {
+    font-size: 14px;
+    padding: 5px 14px;}
+  }
+
