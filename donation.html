@@ -132,35 +132,31 @@
             sangat berarti agar layanan ini dapat tetap berjalan :)
           </p>
           <hr />
+
           <div class="donation-buttons">
-            <h3>Donasi Sekarang</h3>
+            <h4>Pilih nominal donasi dibawah ini</h4>
             <ul class="list-inline">
               <li class="list-inline-item">
-                <a
-                  class="btn donation btn-outline doku text-center"
-                  href="#!"
-                  target="_blank"
+                <form
+                  action="https://donate.churchat.id/"
+                  method="POST"
+                  class="form-donation"
                 >
-                  <img src="./img/doku-icon.png" />
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="btn donation btn-outline paypall text-center"
-                  href="https://www.paypal.me/churchat"
-                  target="_blank"
-                >
-                  <img src="./img/paypal-icon.png" />
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a
-                  class="btn donation btn-outline trakteer text-center"
-                  href="https://trakteer.id/churchat"
-                  target="_blank"
-                >
-                  <img src="./img/trakteer-icon.png" />
-                </a>
+                  <select name="quantity">
+                    <option value="1">20.000</option>
+                    <option value="2">40.000</option>
+                    <option value="3">60.000</option>
+                    <option value="4">80.000</option>
+                    <option value="5">100.000</option>
+                  </select>
+                  <button
+                    class="btn donation btn-outline paypall text-center"
+                    type="submit"
+                  >
+                    <img src="https://churchat.id/img/churchat-logo.png" />
+                    <span> Donate now </span>
+                  </button>
+                </form>
               </li>
             </ul>
           </div>

@@ -15,15 +15,16 @@ body {
 }
 
 body {
-  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Muli", "Helvetica", "Arial", "sans-serif";
 }
 
 a {
   color: #fdcc52;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #fcbd20;
 }
 
@@ -44,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
@@ -66,20 +67,21 @@ section h2 {
 #mainNav {
   border-color: rgba(34, 34, 34, 0.05);
   background-color: white;
-  transition: all .35s;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  transition: all 0.35s;
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand {
   color: #fdcc52;
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Catamaran", "Helvetica", "Arial", "sans-serif";
   font-weight: 200;
   letter-spacing: 1px;
 }
 
-#mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
+#mainNav .navbar-brand:hover,
+#mainNav .navbar-brand:focus {
   color: #fcbd20;
 }
 
@@ -91,7 +93,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a {
   font-size: 11px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -141,7 +143,8 @@ section h2 {
   #mainNav.navbar-shrink .navbar-brand {
     color: #222222;
   }
-  #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
+  #mainNav.navbar-shrink .navbar-brand:hover,
+  #mainNav.navbar-shrink .navbar-brand:focus {
     color: #fdcc52;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
@@ -160,7 +163,7 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: #121212;
-  background-image: linear-gradient(to right ,#B8D4F7, #FFDD00 );
+  background-image: linear-gradient(to right, #b8d4f7, #ffdd00);
 }
 
 header.masthead .header-content {
@@ -203,10 +206,10 @@ header.masthead .device-container .screen img {
 }
 
 @media (max-width: 768px) {
-  .navbar-brand img{
+  .navbar-brand img {
     width: 80px;
   }
-  
+
   header.masthead .header-content {
     margin-bottom: 80px;
   }
@@ -215,7 +218,7 @@ header.masthead .device-container .screen img {
     padding-top: 80px;
   }
 
-  h2{
+  h2 {
     font-size: 1.3rem;
   }
 }
@@ -298,7 +301,7 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #fcbd20, #FFDD00);
+  background: linear-gradient(to right, #fcbd20, #ffdd00);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -411,39 +414,42 @@ footer ul li a {
   color: rgba(255, 255, 255, 0.3);
 }
 
-footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
   text-decoration: none;
 }
 
 .bg-primary {
-  background: #B8D4F7;
-  background: linear-gradient(#B8D4F7, #c5d5d3);
+  background: #b8d4f7;
+  background: linear-gradient(#b8d4f7, #c5d5d3);
 }
 
 .text-primary {
   color: #fdcc52;
 }
 
-.no-gutter > [class*='col-'] {
+.no-gutter > [class*="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
 
-.btn.doku{
-  background: #E5232A;
+.btn.doku {
+  background: #e5232a;
 }
 
-.btn.paypall{
-  background: #0B60AF;
+.btn.paypall {
+  background: #0b60af;
 }
 
-.btn.trakteer{
-  background: #BE1E2D;
+.btn.trakteer {
+  background: #be1e2d;
 }
 
 .btn {
   border-radius: 300px;
-  font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+  font-family: "Lato", "Helvetica", "Arial", "sans-serif";
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -453,7 +459,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
-.btn.donation{
+.btn.donation {
   padding: 10px 20px;
   color: white;
   width: 120px;
@@ -467,22 +473,57 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline {
   color: white;
-  border-color: #5C63AB;
-  background: #5C63AB;
+  border-color: #fff;
+  background: #5c63ab;
 }
 
-.btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
   color: #121212;
   background-color: #fdcc52;
 }
 
-.donation-buttons, .donation-buttons ul{
+.donation-buttons,
+.donation-buttons ul {
   margin-top: 30px;
+}
+
+.form-donation select {
+  margin-bottom: 26px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 150px;
+}
+
+.form-donation button {
+  margin: auto;
+}
+
+.donation img {
+  display: none;
+}
+
+.donation:hover img {
+  display: block;
+}
+
+.donation span {
+  display: block;
+}
+
+.donation:hover span {
+  display: none;
+}
+
+.form-donation {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .btn.donation {
     font-size: 14px;
-    padding: 5px 14px;}
+    padding: 5px 14px;
   }
-
+}
