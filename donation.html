@@ -30,10 +30,28 @@
 
     <style>
       .donation-buttons img {
+        max-width: 200px;
+      }
+      .btn-img {
         width: 80px;
       }
       .donation-buttons .btn {
         border-radius: 50%;
+      }
+      .qr {
+        text-align: left;
+        margin-top: 1rem;
+      }
+      .transfer {
+        text-align: right;
+        margin-top: 1rem;
+      }
+
+      @media only screen and (max-width: 480px) {
+        .qr,
+        .transfer {
+          text-align: center;
+        }
       }
     </style>
 
@@ -131,34 +149,52 @@
             Layanan kami bersifat non profit, oleh karena itu donasi kalian akan
             sangat berarti agar layanan ini dapat tetap berjalan :)
           </p>
-          <hr />
-
-          <div class="donation-buttons">
-            <h4>Pilih nominal donasi dibawah ini</h4>
-            <ul class="list-inline">
-              <li class="list-inline-item">
-                <form
-                  action="https://donate.churchat.id/"
-                  method="POST"
-                  class="form-donation"
-                >
-                  <select name="quantity">
-                    <option value="1">20.000</option>
-                    <option value="2">40.000</option>
-                    <option value="3">60.000</option>
-                    <option value="4">80.000</option>
-                    <option value="5">100.000</option>
-                  </select>
-                  <button
-                    class="btn donation btn-outline paypall text-center"
-                    type="submit"
+        </div>
+        <div class="donation-buttons">
+          <div class="donation-section row">
+            <div class="qr col-md-6">
+              <h4>Scan QR Code</h4>
+              <p>
+                Kamu bisa memberikan donasi dengan <b>OVO</b>, <b>Dana</b>,
+                <b>M-BCA</b>, dengan scan QR Code dibawah ini,<br />lalu
+                masukkan jumlah donasi yang kamu inginkan.
+              </p>
+              <img src="./img/ChurChat-QR.png" alt="churchat qr-code" />
+            </div>
+            <div class="transfer col-md-6">
+              <h4>Bank Transfer & Gopay</h4>
+              <p>
+                Pilih nominal yang kamu inginkan, lalu klik tombol Donate Now,
+                <br />
+                tunggu sampai Pop Up muncul, pilih
+                <b>Gopay QRIS / Bank Transfer</b>
+                <small>(BNI, Permata, Mandiri)</small>
+              </p>
+              <ul class="list-inline">
+                <li class="list-inline-item">
+                  <form
+                    action="https://donate.churchat.id/"
+                    method="POST"
+                    class="form-donation"
                   >
-                    <img src="https://churchat.id/img/churchat-logo.png" />
-                    <span> Donate now </span>
-                  </button>
-                </form>
-              </li>
-            </ul>
+                    <select name="quantity">
+                      <option value="1">20.000</option>
+                      <option value="2">40.000</option>
+                      <option value="3">60.000</option>
+                      <option value="4">80.000</option>
+                      <option value="5">100.000</option>
+                    </select>
+                    <button
+                      class="btn donation btn-outline paypall text-center"
+                      type="submit"
+                    >
+                      <img class="btn-img" src="./img/churchat-logo.png" />
+                      <span> Donate now </span>
+                    </button>
+                  </form>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -203,6 +239,6 @@
     <!-- Custom scripts for this template -->
     <script src="js/churchat.min.js"></script>
 
-    <script src="js/churchat.js"></script>
+    <!-- <script src="js/churchat.js"></script> -->
   </body>
 </html>
