@@ -552,3 +552,9 @@ footer ul li a.active {
     text-align: center;
   }
 }
+
+.section-privacy {
+  margin-top: 1rem;
+  padding: 5rem;
+  max-width: 800px;
+}
