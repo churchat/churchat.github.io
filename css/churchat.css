@@ -553,8 +553,8 @@ footer ul li a.active {
   }
 }
 
-.section-privacy {
-  margin-top: 1rem;
-  padding: 5rem;
-  max-width: 800px;
+.section-privacy,
+.section-terms {
+  margin-top: 5rem;
+  padding: 0 8rem;
 }
